@@ -1,3 +1,6 @@
 fastapi
 uvicorn
+google-generativeai
+python-dotenv
 openpyxl
+pydantic

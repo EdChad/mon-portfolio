@@ -78,6 +78,9 @@ async def generate_excel(data: GenerateRequest):
                 response_mime_type="application/json",
             )
         )
+
+
+        print(response.text)
         
         # 3. Parsing des données générées
         generated_data = json.loads(response.text)
